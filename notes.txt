@@ -1,0 +1,115 @@
+id - calculator (div.row x 4)
+// rows -> buttons (div)
+        -> div.button -> number or operator
+        // might need to use classList.contains (determine what I clicked)
+// rows(4) -. number, operator, 
+
+
+As a user, I want to be able to select numbers so that I can perform operations with them.
+
+As a user, I want to be able to add two numbers together.
+// add 
+As a user, I want to be able to subtract one number from another.
+
+As a user, I want to be able to multiply two numbers together.
+
+As a user, I want to be able to divide one number by another.
+// render function
+
+As a user, I want to be able to see the output of the mathematical operation.
+As a user, I want to be able to clear all operations and start from 0.
+
+
+// calculator
+
+// constants ?
+// variables
+    // tbd
+    num1 = number(button text)
+    num2 = number(button text)
+    operator - "+", "-", "/", "*"
+    result = "3.14"
+// dom elements-
+buttons
+   div.number
+    div.operator
+    div.equal
+result - .display
+
+// event handler - 
+    click handler for each group of elements
+    // functionality will be tied to its button 
+
+    // TODO: As a user, I want the option to play another round, so I can try to improve my record.
+
+// state for this user story? 
+    // reset() - default the current black back to the initial state (undefined)
+        //playerChoice
+        //computerChoice
+        // msg
+// add reset btn to HTML ->
+// add eventHandler to the button -> reset() 
+
+
+id - calculator (div.row x 4)
+    // rows -> buttons (div) 
+            -> div.button -> .number (9) or .operator (/)
+                // might need to use classList.contains (determine what I clicked)
+    // rows(4) -> number, operator, equals 
+
+// user stories
+
+
+// general goal
+As a user, I want to be able to select numbers so that I can perform operations with them.
+
+
+// features for operations
+As a user, I want to be able to add two numbers together.
+
+// render function 
+As a user, I want to be able to see the output of the mathematical operation.
+
+
+ICEBOX 
+// operation functions
+As a user, I want to be able to subtract one number from another.
+
+As a user, I want to be able to multiply two numbers together.
+
+As a user, I want to be able to divide one number by another.
+
+// reset function
+As a user, I want to be able to clear all operations and start from 0.
+
+// calculator
+
+
+// constants ? complex data [] {} ? 
+
+// variables 
+    // tbd
+    num1 = number(button text)
+    num2 = number(button text)
+    operator - "+", "-", "/", "*"
+    result = "3.14"
+
+// dom elements -
+    buttons 
+        div.number
+        div.operator
+        div.equal
+    result - .display
+
+// event handler - 
+    click handler for each group of elements 
+    // functionality will be tied to its button
+    
+
+
+
+
+
+
+
+
